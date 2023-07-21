@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>file upload</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150px;
+            width: 300px;
+        }
+
+        form {
+            padding: 20px;
+            background-color: aqua;
+        }
+
+        form * {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="form">
+        <input type="file" id="file" accept=".png"><br>
+        <input type="text" id="comments" placeholder="File comments"><br>
+        <button type="submit">Upload file</button>
+    </form>
+    <script type="module" src="./src/index.ts"></script>
+</body>
+
+</html>
